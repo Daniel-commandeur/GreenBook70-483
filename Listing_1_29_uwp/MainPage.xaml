@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Listing_1_29_uwp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Listing_1_29_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Random Averages" FontSize="100" TextAlignment="Center"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,50,0,50">
+                <TextBlock Text="Number of values" FontSize="75" TextAlignment="Center" Margin="0,0,50,0"></TextBlock>
+                <TextBox x:Name="NumberOfValuesTextBox" Text="1000000000" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBox>
+            </StackPanel>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Margin="0,20,0,0" Click="Listing_1_29_Button_Click">Listing 1-29</Button>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Margin="0,20,0,0" Click="Listing_1_30_Button_Click">Listing 1-30</Button>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Margin="0,20,0,0" Click="Listing_1_31_Button_Click">Listing 1-31</Button>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Margin="0,20,0,0" Click="Listing_1_32_Button_Click">Listing 1-32</Button>
+            <TextBlock x:Name="ResultTextBlock" FontSize="50" HorizontalAlignment="Center" Margin="0,20,0,50"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
